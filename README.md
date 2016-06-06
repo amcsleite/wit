@@ -36,5 +36,5 @@ The file  **a\<p\>\<m\>\<d\>\<o\>.m ** (Example: a3223.m) is created with all wi
 #Running quantum limits
 - mSeeSaw computes limits using projective measurement or POVMS
 - prepareNPADimNeumark - prepares momentum matrix base for a scenario
-- runNPADimNeuMark - run SDP for a specific witness using the base bound with prepareNPADimNeumark
+- runNPADimNeumark - run SDP for a specific witness using the base bound with prepareNPADimNeumark
 

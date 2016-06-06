@@ -5,10 +5,10 @@ Dimension witness characterization - classic vs quantum
 #WPoly  \<p\>  \<m\> \<d\> \<o\>
   where
   
-  **p** - preparations   
-  **m** - measurements   
-  **d** - dimension  (i.e.  d==2  for a bit d==3 for a trit)
-  **o** - outcomes
+* **p**  preparations   
+* **m**  measurements   
+*  **d**  dimension  \(i.e.  d==2  for a bit d==3 for a trit\)
+*  **o**  outcomes
 
 For d==2 two polytopes corresponding to expected values and probabilities polytope. Otherwsise only the 
 probababilities polytope is created

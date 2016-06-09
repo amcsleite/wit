@@ -1,0 +1,5 @@
+#!/bin/bash
+cmake -D_DEBUG=1 -DCMAKE_BUILD_TYPE=Debug  -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ./ -G "Unix Makefiles"
+mv Makefile Makefile.cmake
+make -f Makefile.cmake clean
+make -f Makefile.cmake

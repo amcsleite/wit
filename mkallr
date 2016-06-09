@@ -1,0 +1,5 @@
+#!/bin/bash
+cmake -DCMAKE_BUILD_TYPE=Release  -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ./ -G "Unix Makefiles"
+mv Makefile Makefile.cmake
+make -f Makefile.cmake clean
+make -f Makefile.cmake
